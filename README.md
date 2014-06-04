@@ -9,4 +9,17 @@ You use a Linux machine.
 Download the JDK from oracle. Put the download targz to the directory
 `server-jre`
 
-## Start TomCat
+## Install
+
+Installation happens automatically when you want to start a service, so to
+do that:
+
+    ./tomcat-start.sh
+    ./webapp-make-deploy.sh
+    ./tomcat-stop.sh
+
+## Run coverage demo
+
+    ./run_coverage.sh
+
+Read The source for more information
