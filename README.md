@@ -6,7 +6,7 @@ Get out some coverage data for a webapp
 
 You use a Linux machine.
 
-Download the JDK from oracle. Put the download targz to the directory
+Download the JDK from oracle. Put the downloaded targz to the directory
 `server-jre`
 
 ## Install
