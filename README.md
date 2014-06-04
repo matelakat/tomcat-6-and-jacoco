@@ -1,4 +1,8 @@
-tomcat-6-and-jacoco
-===================
+# tomcat-6-and-jacoco
 
-Experiments with Tomcat 6 and JaCoco
+Get out some coverage data for a webapp
+
+## Requirements
+
+Download the JDK from oracle. Put the download targz to the directory
+`server-jre`
