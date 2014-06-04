@@ -35,4 +35,6 @@ $MVN package
 )
 
 WARFILE=$(find webapp/ -name "*.war")
+rm -rf $INSTALLED_TOMCAT/webapps/webapp
+
 cp $WARFILE $INSTALLED_TOMCAT/webapps/

@@ -11,6 +11,6 @@
     
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
-        <url-pattern>/SimpleServlet</url-pattern>
+        <url-pattern>/SimpleServlet/*</url-pattern>
     </servlet-mapping>
 </web-app>
