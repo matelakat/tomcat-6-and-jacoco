@@ -8,7 +8,7 @@ INSTALLED_TOMCAT=$(readlink -f $INSTALLED_TOMCAT)
 
 (
 cd maven-dl/
-wget -nc http://mirror.ox.ac.uk/sites/rsync.apache.org/maven/maven-3/3.2.1/binaries/apache-maven-3.2.1-bin.tar.gz
+wget -nc https://archive.apache.org/dist/maven/binaries/apache-maven-3.2.1-bin.tar.gz
 )
 MAVEN_INSTALL=$(find maven-dl/ -name "*.tar.gz")
 MAVEN_INSTALL=$(readlink -f $MAVEN_INSTALL)
