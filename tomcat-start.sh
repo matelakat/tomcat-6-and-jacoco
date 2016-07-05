@@ -3,7 +3,7 @@ set -eux
 
 (
 cd tomcat-dl/
-wget -nc http://mirror.gopotato.co.uk/apache/tomcat/tomcat-6/v6.0.41/bin/apache-tomcat-6.0.41.tar.gz
+wget -nc https://archive.apache.org/dist/tomcat/tomcat-6/v6.0.41/bin/apache-tomcat-6.0.41.tar.gz
 )
 
 TOMCAT_INSTALL=$(find tomcat-dl -name "*.tar.gz")
